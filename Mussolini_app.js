@@ -1,3 +1,8 @@
+document.getElementById("clickImage").style.visibility = 'hidden';
+document.getElementById("clickText").style.visibility = 'hidden';
+document.getElementById("clickCartoon").style.visibility = 'hidden';
+document.getElementById("clickFour").style.visibility = 'hidden';
+
 function displayImage() {
     const x = document.getElementById("clickImage");
     if (x.style.visibility === "hidden") {
