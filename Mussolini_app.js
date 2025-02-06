@@ -24,22 +24,22 @@ function displayText() {
 }
 
 function displayCartoon() {
-  const y = document.getElementById("clickCartoon");
-  if (y.style.visibility === "hidden") {
-    y.style.visibility = "visible";
-    y.style.display = "inline-block";
+  const z = document.getElementById("clickCartoon");
+  if (z.style.visibility === "hidden") {
+    z.style.visibility = "visible";
+    z.style.display = "inline-block";
   } else {
-    y.style.visibility = "hidden";
+    z.style.visibility = "hidden";
   }
 }
 
 function displayFour() {
-  const y = document.getElementById("clickFour");
-  if (y.style.visibility === "hidden") {
-    y.style.visibility = "visible";
-    y.style.display = "inline-block";
+  const w = document.getElementById("clickFour");
+  if (w.style.visibility === "hidden") {
+    w.style.visibility = "visible";
+    w.style.display = "inline-block";
   } else {
-    y.style.visibility = "hidden";
+    w.style.visibility = "hidden";
   }
 }
 //Figure out the hover part !!!!!!!
